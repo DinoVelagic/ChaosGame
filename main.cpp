@@ -106,7 +106,7 @@ int main()
 		//generate interior points
 
 		ostringstream oss;
-		oss << "Choose 3 Vertices";
+		oss << "Choose 3 Vertices, click again to start";
 		instructions.setString(oss.str());
 
 		FloatRect textRect = instructions.getLocalBounds();
