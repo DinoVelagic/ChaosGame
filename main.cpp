@@ -23,7 +23,7 @@ int main()
 	Text instructions;
 	instructions.setFont(f);
 	instructions.setCharacterSize(24);
-	instructions.setFillColor(Color::Green);
+	instructions.setFillColor(Color::Blue);
 
 	int c1_x;
 	int c1_y;
@@ -130,7 +130,7 @@ int main()
 		//RectangleShape r{ Vector2f{4,4} }; ///width, height.  Center uninitialized
 
 		CircleShape r(2);
-		r.setFillColor(Color::Magenta);
+		r.setFillColor(Color::Red);
 
 		int randNum;
 
